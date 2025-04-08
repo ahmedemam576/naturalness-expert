@@ -1,0 +1,32 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.venv
+
+# Backend PDF storage (optional, depending on your preference)
+backend/opinion_pdfs/*
+backend/data_pdfs/*
+!backend/opinion_pdfs/.gitkeep
+!backend/data_pdfs/.gitkeep
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Streamlit specific
+.streamlit/
+
+# Secrets and environment variables
+.env
+secrets.toml
