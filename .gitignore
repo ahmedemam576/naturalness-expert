@@ -30,3 +30,10 @@ Thumbs.db
 # Secrets and environment variables
 .env
 secrets.toml
+rag/
+venv/
+*.venv
+.venv/
+__pycache__/
+*.pyc
+.env
